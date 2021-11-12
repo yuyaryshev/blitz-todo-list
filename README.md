@@ -6,10 +6,12 @@ This is a [Blitz.js](https://github.com/blitz-js/blitz) app.
 
 ## Getting Started
 
-Run your app in the development mode.
-
 ```
-blitz dev
+git clone https://github.com/yuyaryshev/blitz-todo-list.git
+pnpm i
+set DATABASE_URL=file:/todo.db
+npx blitz prisma migrate dev --preview-feature
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
