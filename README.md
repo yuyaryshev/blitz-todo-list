@@ -7,7 +7,7 @@ This is a [Blitz.js](https://github.com/blitz-js/blitz) app.
 ```
 git clone https://github.com/yuyaryshev/blitz-todo-list.git
 cd blitz-todo-list
-yarn i
+yarn install
 set DATABASE_URL=file:/todo.db
 npx -y blitz prisma migrate dev --preview-feature
 npx -y blitz prisma generate dev --preview-feature
