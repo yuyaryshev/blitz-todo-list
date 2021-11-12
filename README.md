@@ -10,6 +10,7 @@ cd blitz-todo-list
 pnpm i
 set DATABASE_URL=file:/todo.db
 npx blitz prisma migrate dev --preview-feature
+npx blitz prisma generate dev --preview-feature
 pnpm dev
 
 ```
