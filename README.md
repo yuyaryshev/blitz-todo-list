@@ -9,8 +9,8 @@ git clone https://github.com/yuyaryshev/blitz-todo-list.git
 cd blitz-todo-list
 yarn i
 set DATABASE_URL=file:/todo.db
-npx blitz prisma migrate dev --preview-feature
-npx blitz prisma generate dev --preview-feature
+npx -y blitz prisma migrate dev --preview-feature
+npx -y blitz prisma generate dev --preview-feature
 yarn dev
 
 ```
